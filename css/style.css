@@ -9,7 +9,7 @@ h1{
 .color{
     color: rgb(255, 21, 165);
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -38,4 +38,37 @@ section{
     background-image: url(../image/dream-bg.jpg);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience{
+    background-image: url(../image/exp-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience h1{
+    font-weight: 600;
+    font-size: 45px;
+}
+.box-shadow{
+    box-shadow: 10px 10px 20px 5px gray;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 10px 20px 60px 30px;
+}
+.box-shadow h1{
+    font-weight: 600;
+    font-size: 40px;
+}
+#web-exp{
+    border-left: 7px solid;
+    border-image: linear-gradient(to bottom , rgb(175, 2, 138), rgb(248, 2, 174));
+    border-image-slice: 1;
+}
+#baby-exp{
+    border-left: 7px solid;
+    border-image: linear-gradient(to bottom , rgb(184, 2, 2), rgb(248, 72, 2));
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
 }
